@@ -15,9 +15,11 @@ Once you're happy with your solution, `git push` and submit a pull request at
 
 ## 2. Challenge
 
-Pete likes to bake some cakes. He has some recipes and ingredients. Unfortunately he is not good at math. Can you help him determine how many cakes he can bake given his available ingreidents?
+Codeworks students like to bake cakes. They already have some recipes and ingredients in the kitchen. 
+How many cakes can they bake, given what's available? 
 
-Write a function `cakes()`, which takes two objects as arguments: the recipe, and the available ingredients.  The function returns maximum number of cakes Pete can bake as an integer. 
+Write a function `cakes()`, which takes two objects as arguments: the recipe, and the available ingredients. 
+The function returns the maximum number of cakes they can bake as an integer.
 
 For simplicity there are no units (e.g. 200 g of sugar is simply 200). 
 Ingredients that are not present can be considered as 0.
