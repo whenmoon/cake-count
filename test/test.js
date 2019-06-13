@@ -5,7 +5,7 @@ const cakes = require('../index.js');
 describe('Basic Tests', function() {
   var recipe, available;
 
-  it('should return a warning string when passed a non-array argument', function () {
+  it('should return a warning string when not passed two objects.', function () {
     recipe = {almondFlour: 500, sugar: 200, eggs: 1};
     cakes(recipe, 'Need to go grocery shopping.').should.eql('Please enter two objects.');
     cakes(recipe, ['Need to go grocery shopping.']).should.eql('Please enter two objects.');

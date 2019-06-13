@@ -23,6 +23,7 @@ The function returns the maximum number of cakes they can bake as an integer.
 
 For simplicity there are no units (e.g. 200 g of sugar is simply 200). 
 Ingredients that are not present can be considered as 0.
+It should throw an error if not passed two objects.
 
 ### 2.1. Examples
 
