@@ -10,3 +10,5 @@
 function cakes(recipe, available) {
   // Let's bake some cakes!
 }
+
+module.exports = cakes;
